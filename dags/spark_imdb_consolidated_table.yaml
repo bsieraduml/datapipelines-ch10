@@ -1,7 +1,7 @@
 apiVersion: "sparkoperator.k8s.io/v1beta2"
 kind: SparkApplication
 metadata:
-  name: imdb-consolidated-table-13jan2025-01
+  name: imdb-consolidated-table-{{ ts_nodash }}
   namespace: airflow
 spec:
   volumes:
